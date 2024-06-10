@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "6666e2730608387a70a9ae2f"
+  },
+  "Name": "Jean",
+  "Price": "70",
+  "ImageUrl": "deneme2",
+  "Description": "Hunter",
+  "CategoryId": "6666e1d10608387a70a9ae2d"
+},
+{
+  "_id": {
+    "$oid": "6666e32827bbbb5e479cf143"
+  },
+  "Name": "BlueJean",
+  "Price": "70",
+  "ImageUrl": "deneme2",
+  "Description": "Jack",
+  "CategoryId": "6666e1d10608387a70a9ae2d"
+}]
