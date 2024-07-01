@@ -38,7 +38,7 @@ namespace MultiShop.Discount.Controllers
         }
 
         [HttpDelete]
-        public async Task<IActionResult> DeleteDİscountCoupon(int id)
+        public async Task<IActionResult> DeleteDiscountCoupon(int id)
         {
             await _discountService.DeleteDiscountCouponAsync(id);
             return Ok("Coupon is deleted successfully");
