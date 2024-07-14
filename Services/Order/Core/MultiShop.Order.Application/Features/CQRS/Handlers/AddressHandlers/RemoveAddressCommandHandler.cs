@@ -11,9 +11,9 @@ namespace MultiShop.Order.Application.Features.CQRS.Handlers.AddressHandlers
 {
     public class RemoveAddressCommandHandler
     {
-        private readonly IRepository<Address>? _repository;
+        private readonly IRepository<Address> _repository;
 
-        public RemoveAddressCommandHandler(IRepository<Address>? repository)
+        public RemoveAddressCommandHandler(IRepository<Address> repository)
         {
             _repository = repository;
         }

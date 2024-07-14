@@ -11,9 +11,9 @@ namespace MultiShop.Order.Application.Features.CQRS.Handlers.AddressHandlers
 {
     public class CreateAddressCommandHandler
     {
-        private readonly IRepository<Address>? _repository;
+        private readonly IRepository<Address> _repository;
 
-        public CreateAddressCommandHandler(IRepository<Address>? repository)
+        public CreateAddressCommandHandler(IRepository<Address> repository)
         {
             _repository = repository;
         }

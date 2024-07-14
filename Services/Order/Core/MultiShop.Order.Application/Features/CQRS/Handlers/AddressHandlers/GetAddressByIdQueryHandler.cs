@@ -12,9 +12,9 @@ namespace MultiShop.Order.Application.Features.CQRS.Handlers.AddressHandlers
 {
     public class GetAddressByIdQueryHandler
     {
-        private readonly IRepository<Address>? _repository;
+        private readonly IRepository<Address> _repository;
 
-        public GetAddressByIdQueryHandler(IRepository<Address>? repository)
+        public GetAddressByIdQueryHandler(IRepository<Address> repository)
         {
             _repository = repository;
         }
